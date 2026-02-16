@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Namadii Cybertech</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+/* Navigation */
+nav {
+    background: #111;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00c3ff;
+}
+
+/* Section */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Contact */
+.contact {
+    background: #2c5364;
+    color: white;
+    padding: 30px;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+button {
+    padding: 10px 20px;
+    background: #00c3ff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0099cc;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Namadii Cybertech</h1>
+    <p>Your Gateway to the Digital World</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section>
+    <h2>Welcome to Namadii Cybertech</h2>
+    <p>We provide reliable internet services and digital solutions for individuals and businesses.</p>
+    <button onclick="showMessage()">Learn More</button>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Internet Services</h3>
+            <p>Fast and secure browsing solutions.</p>
+        </div>
+        <div class="card">
+            <h3>NIN & BVN Registration</h3>
+            <p>Quick and trusted registration services.</p>
+        </div>
+        <div class="card">
+            <h3>CAC Registration</h3>
+            <p>Business name registration made easy.</p>
+        </div>
+        <div class="card">
+            <h3>Software & Printing</h3>
+            <p>Invitations, Stickers, Memo, and more.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 09033262382 | 09139076794</p>
+    <p>Location: Tsohuwar Kasuwa , Garko</p>
+</section>
+
+<footer>
+    <p>© 2026 Namadii Cybertech. All Rights Reserved.</p>
+</footer>
+
+<script>
+function showMessage() {
+    alert("Welcome to Namadii Cybertech! We are ready to serve you.");
+}
+</script>
+
+</body>
+</html>
